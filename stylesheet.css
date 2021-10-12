@@ -17,9 +17,14 @@
         font-size: 20px;
     }
 }
+.mylink {
+    background-color: blue;
+    color: white;
+    font-size: 42px;
+}
 .navigation {
     background-color: #333333;
-    height: 50px;
+    height: 100px;
     overflow: hidden;
 }
 .navigation a {
