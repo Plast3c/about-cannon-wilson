@@ -1,3 +1,19 @@
 #width400 {
     width: 400px;
 }
+
+#zoom {
+    animation-duration: 2s;
+    animation-name: zoom;
+}
+@keyframes zoom {
+    from {
+        font-size: 50px;
+    }
+    75% {
+        font-size: 24px;
+    }
+    to {
+        font-size: 20px;
+    }
+}
